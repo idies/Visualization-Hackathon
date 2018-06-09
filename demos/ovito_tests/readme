@@ -1,1 +1,18 @@
-Tests for generating 3D stereoscopic images and videos using POV Ray and Ovito
+Tests for generating 3D stereoscopic images and videos using POV Ray and Ovito. Current workflow:
+
+1) Load data in Ovito (https://ovito.org/index.php/download) 
+Ovito is designed to render the atomic simulation data but can be used to render the trajectory of any type of discrete particles. 
+It accepts many dataformats, can customize various visual features, and has an associated python library.
+
+2) Install POVRay 3.7.1 (http://www.povray.org/)
+Need to download the developmental version (https://github.com/POV-Ray/povray/releases)
+Ovito can use several engines to render the data,POV Ray in particular has support for 360 steroscopic views 
+https://ovito.org/manual/rendering.povray_renderer.html
+
+3) Render an mp4 video
+
+4) Inject 360 metadata using google app (https://support.google.com/youtube/answer/6178631?hl=en)
+
+5) Upload on youtube or open in VLC
+
+
