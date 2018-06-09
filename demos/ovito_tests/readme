@@ -16,3 +16,7 @@ https://ovito.org/manual/rendering.povray_renderer.html
 5) Upload on youtube or open in VLC
 
 
+Note: For some reason Ovito sometimes fails to openPOV when rendering a frame, not sure why yet. 
+A workaround is to render frames in small blocks and then concatenate the videos (VLC can do this)
+
+
