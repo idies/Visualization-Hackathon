@@ -33,6 +33,33 @@ class ParseDatetime(object):
             day_type = 'weekend'
         return day_type
 
+    def _get_time(self):
+        """
+        This function classifies a given time within SDOTs time categories (MORNING, AFTERNOON, EVENING)
+        Outputs: time_interval (string)
+        """
+        return self._get_interval(self.time, morning_start=7, morning_end=9, afternoon_start=9,
+            afternoon_end=16, evening_start=16, evening_end=20)
+
+
+
+    def _get_interval(self, time, morning_start, morning_end, afternoon_start, afternoon_end,
+        evening_start, evening_end):
+        """
+        Helper method to get a time interval given specific thresholds.
+        Inputs: time object, start and end times
+        Outputs: time classification
+        """
+        if time.hour >= morning_start and time.hour <= morning_end:
+            time_frame = 'morning'
+        elif time.hour > afternoon_start and time.hour <= afternoon_end:
+            time_frame = 'afternoon'
+        elif time.hour > evening_start and time.hour <= evening_end:
+            time_frame = 'evening'
+        else:
+            time_frame = 'after_hours'
+        return time_frame
+
 
     def _strip_milliseconds(self):
         """
