@@ -1,0 +1,125 @@
+,neighborhood,normalized_crime
+0,neighborhood,"0                            Abell
+1                        Allendale
+2                          Arcadia
+3                       Boyd-Booth
+4                        Arlington
+5                Armistead Gardens
+6                        Ashburton
+7              Baltimore Highlands
+8      Patterson Park Neighborhood
+9                          Barclay
+10                    Barre Circle
+11                      Beechfield
+12                 Belair-Parkside
+13                Bellona-Gittings
+14                           Berea
+15                  Better Waverly
+16                    Brewers Hill
+17                   Beverly Hills
+18                   Biddle Street
+19                      Blythewood
+20                     Bolton Hill
+21            Bridgeview/Greenlawn
+22                   Broadway East
+23                  Broening Manor
+24               Burleith-Leighton
+25                        Brooklyn
+26                  Butcher's Hill
+27               Callaway-Garrison
+28                 Cameron Village
+29                          Canton
+                  ...             
+226                Washington Hill
+227     Washington Village/Pigtown
+228                        Waverly
+229                 West Arlington
+230               West Forest Park
+231                     West Hills
+232             Woodbourne Heights
+233                      Westfield
+234                       Westgate
+235                       Westport
+236                    Wilson Park
+237                  Windsor Hills
+238                 Winston-Govans
+239                      Woodberry
+240                       Woodmere
+241                     Wyman Park
+242                      Wyndhurst
+243                   Yale Heights
+244        Lower Edmondson Village
+245                   Wilhelm Park
+246                       Edgewood
+247                   Evesham Park
+248                      Belvedere
+249                       Wrenlane
+250                  York-Homeland
+251                           CARE
+252                  Belair-Edison
+253                   Four By Four
+254                Charles Village
+255                    Old Goucher
+Name: neighborhood, Length: 256, dtype: object"
+1,normalized_crime,"0      0.496063
+1      0.682048
+2      0.202429
+3      0.600973
+4      1.621632
+5      0.369578
+6      0.643651
+7      0.658158
+8      0.384192
+9      1.354425
+10     0.180000
+11     0.282902
+12     0.353604
+13     0.058431
+14     0.561190
+15     0.629784
+16     0.468564
+17     0.198804
+18     0.523320
+19     0.069444
+20     0.149980
+21     2.024304
+22     0.854593
+23     0.444380
+24     0.796472
+25     0.548619
+26     0.186342
+27     0.720801
+28     0.227178
+29     0.320948
+         ...   
+226    0.418994
+227    0.756841
+228    0.519900
+229    0.305243
+230    0.316445
+231    0.359426
+232    0.223398
+233    0.348297
+234    0.187104
+235    0.571877
+236    0.411184
+237    0.365979
+238    0.334079
+239    0.415363
+240    0.836538
+241    0.114812
+242    0.321937
+243    0.288400
+244    0.401345
+245    2.301498
+246    0.450604
+247    0.318759
+248    0.413889
+249    0.182923
+250    2.970946
+251    0.971329
+252    0.423008
+253    0.481364
+254    0.332472
+255    0.872849
+Name: normalized_crime, Length: 256, dtype: float64"
