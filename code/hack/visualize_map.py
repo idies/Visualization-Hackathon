@@ -38,12 +38,12 @@ def load_choropleth_attribute(file_name, processed_dir):
     Inputs: csv file name for data desired to be choropleth
     Outputs: dataframe
     """
-    df = pd.read_csv(os.path.join(processed_dir, file_name), dtype={cn.KEY: str})
+    df = pd.read_csv(os.path.join(processed_dir, file_name), dtype={'key': str})
     df.key = df.key.apply(lambda x: x.rstrip('.0'))
     return df
 
 
-def merge_data(df=None, file_name=None, processed_dir=cn.CSV_DIR):
+def merge_data(processed_dir, df=None, file_name=None):
     """
     Merges geometry geodataframe with chloropleth attribute data.
     Inputs: dataframe or csv file name for data desired to be choropleth
