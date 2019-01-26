@@ -55,7 +55,7 @@ def merge_data(df=None, file_name=None, processed_dir=cn.CSV_DIR):
     else:
         attribute = load_choropleth_attribute(file_name, processed_dir)
     
-    return block_groups.merge(attribute, on=cn.KEY, how='inner')
+    return block_groups.merge(attribute, on='key', how='inner')
     
 
 def plot_map(attribute_column, processed_dir, df=None, file_name=None):
