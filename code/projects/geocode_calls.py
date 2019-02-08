@@ -75,13 +75,13 @@ def main(dataset='911_Police_Calls_for_Service.csv', pickle_name='baltimore.pkl'
 if __name__ == "__main__":
     if len(sys.argv) == 1:
         main()
-    else if len(sys.argv) == 2:
+    elif len(sys.argv) == 2:
         main(dataset=sys.argv[1])
-    else if len(sys.argv) == 3:
+    elif len(sys.argv) == 3:
         main(dataset=sys.argv[1], pickle_name=sys.argv[2])
-    else if len(sys.argv) == 4:
+    elif len(sys.argv) == 4:
         main(dataset=sys.argv[1], pickle_name=sys.argv[2], directory=sys.argv[3])
-    else if len(sys.argv) == 5:
+    elif len(sys.argv) == 5:
         main(dataset=sys.argv[1], pickle_name=sys.argv[2], directory=sys.argv[3], pickle_dir=sys.argv[4])
     else:
         print("invalid number of command line arguments")
