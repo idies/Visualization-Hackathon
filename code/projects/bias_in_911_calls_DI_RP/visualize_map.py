@@ -87,9 +87,9 @@ def main(attribute, chloropleth, geomap='baltimore.pkl', directory='data/geograp
 if __name__ == "__main__":
     if len(sys.argv) == 3:
         main(attribute=sys.argv[1], chloropleth=sys.argv[2])
-    else if len(sys.argv) == 4:
+    elif len(sys.argv) == 4:
         main(attribute=sys.argv[1], chloropleth=sys.argv[2], geomap=sys.argv[3])
-    else if len(sys.argv) == 5:
+    elif len(sys.argv) == 5:
         main(attribute=sys.argv[1], chloropleth=sys.argv[2], geomap=sys.argv[3], directory=sys.argv[4])
     else:
         print("invalid number of command line arguments")
